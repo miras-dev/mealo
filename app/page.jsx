@@ -1,5 +1,5 @@
 import { Navbar5 } from "@/components/shared/Navbar5";
-import { Layout394 } from "@/components/home/Layout394";
+import { Header142 } from "@/components/home/Header142";
 import { Layout353 } from "@/components/home/Layout353";
 import { Pricing20 } from "@/components/home/Pricing20";
 import { Layout504 } from "@/components/home/Layout504";
@@ -13,7 +13,7 @@ export default function HomePage() {
   return (
     <div>
       <Navbar5 />
-      <Layout394 />
+      <Header142 />
       <Layout353 />
       <Pricing20 />
       <Layout504 />
