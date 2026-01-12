@@ -1,7 +1,5 @@
 "use client";
 
-import { Navbar5 } from "@/components/shared/Navbar5";
-import { Footer1 } from "@/components/shared/Footer1";
 import { Cta31 } from "@/components/shared/Cta31";
 import { useParams } from "next/navigation";
 
@@ -30,9 +28,7 @@ export default function MealDetailPage() {
   };
 
   return (
-    <div>
-      <Navbar5 />
-
+    <>
       {/* Meal Detail Hero */}
       <section className="px-[5%] py-16 md:py-24 lg:py-28">
         <div className="container mx-auto max-w-6xl">
@@ -102,7 +98,6 @@ export default function MealDetailPage() {
       </section>
 
       <Cta31 />
-      <Footer1 />
-    </div>
+    </>
   );
 }

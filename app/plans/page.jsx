@@ -1,4 +1,3 @@
-import { Navbar5 } from "@/components/shared/Navbar5";
 import { Header69 } from "@/components/plans/Header69";
 import { Layout513 } from "@/components/plans/Layout513";
 import { Pricing20 } from "@/components/plans/Pricing20";
@@ -6,7 +5,6 @@ import { Layout419 } from "@/components/plans/Layout419";
 import { Layout357 } from "@/components/plans/Layout357";
 import { Faq9 } from "@/components/plans/Faq9";
 import { Cta31 } from "@/components/shared/Cta31";
-import { Footer1 } from "@/components/shared/Footer1";
 import { generateMetadata as generateSEOMetadata, generateProductSchema } from "@/lib/seo";
 
 export const metadata = generateSEOMetadata({
@@ -26,12 +24,11 @@ export default function PlansPage() {
   });
 
   return (
-    <div>
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
-      <Navbar5 />
       <Header69 />
       <Layout513 />
       <Pricing20 />
@@ -39,7 +36,6 @@ export default function PlansPage() {
       <Layout357 />
       <Faq9 />
       <Cta31 />
-      <Footer1 />
-    </div>
+    </>
   );
 }

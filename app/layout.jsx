@@ -1,5 +1,7 @@
 import "./globals.css";
 import { generateMetadata as generateSEOMetadata, generateOrganizationSchema } from "@/lib/seo";
+import { Navbar5 } from "@/components/shared/Navbar5";
+import { Footer1 } from "@/components/shared/Footer1";
 
 export const metadata = generateSEOMetadata({
   title: "Authentic Kerala meals, balanced for your life",
@@ -19,7 +21,9 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        {children}
+        <Navbar5 />
+        <main>{children}</main>
+        <Footer1 />
       </body>
     </html>
   );
