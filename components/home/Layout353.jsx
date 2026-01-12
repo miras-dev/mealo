@@ -25,12 +25,12 @@ export const Layout353 = (props) => {
               ))}
             </div>
           </div>
-          <div>
+          <div className="flex flex-col gap-8">
             {featureSections.map((section, index) => (
               <div
                 key={index}
-                className="sticky mb-8 border border-border-primary bg-background-primary p-8"
-                style={{ top: `${30 + index * 2}%` }}
+                className="border border-border-primary bg-background-primary p-8 md:sticky"
+                style={{ top: `${20 + index * 8}rem` }}
               >
                 <div className="mb-3 md:mb-4">
                   <img src={section.icon.src} alt={section.icon.alt} className="size-12" />
