@@ -233,8 +233,8 @@ export function Layout513() {
               </div>
             </div>
             <div className="flex flex-col justify-start gap-y-8">
-              {!mounted ? null : <AnimatePresence>
-                <Fragment>
+              {mounted && (
+                <>
                   <ConditionalRender condition={mobile.isMobile}>
                     <div>
                       <h5 className="mb-3 text-xl font-bold">Normal plan</h5>
@@ -260,7 +260,7 @@ export function Layout513() {
                       initial={{ opacity: 0, y: 100 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5 }}
-                      className="md:absolute first:md:relative"
+                      className="md:relative"
                     >
                       <h5 className="font-bold md:mb-4 md:text-2xl">
                         Normal plan
@@ -271,8 +271,7 @@ export function Layout513() {
                       </p>
                     </motion.div>
                   </ConditionalRender>
-                </Fragment>
-                <Fragment>
+
                   <ConditionalRender condition={mobile.isMobile}>
                     <div>
                       <h5 className="mb-3 text-xl font-bold">Executive plan</h5>
@@ -298,7 +297,7 @@ export function Layout513() {
                       initial={false}
                       animate={{}}
                       transition={{}}
-                      className="md:absolute first:md:relative"
+                      className="md:absolute md:top-0"
                     >
                       <h5 className="font-bold md:mb-4 md:text-2xl">
                         Executive plan
@@ -309,8 +308,7 @@ export function Layout513() {
                       </p>
                     </motion.div>
                   </ConditionalRender>
-                </Fragment>
-                <Fragment>
+
                   <ConditionalRender condition={mobile.isMobile}>
                     <div>
                       <h5 className="mb-3 text-xl font-bold">
@@ -338,7 +336,7 @@ export function Layout513() {
                       initial={false}
                       animate={{}}
                       transition={{}}
-                      className="md:absolute first:md:relative"
+                      className="md:absolute md:top-0"
                     >
                       <h5 className="font-bold md:mb-4 md:text-2xl">
                         Weight loss plan
@@ -349,8 +347,7 @@ export function Layout513() {
                       </p>
                     </motion.div>
                   </ConditionalRender>
-                </Fragment>
-                <Fragment>
+
                   <ConditionalRender condition={mobile.isMobile}>
                     <div>
                       <h5 className="mb-3 text-xl font-bold">
@@ -378,7 +375,7 @@ export function Layout513() {
                       initial={false}
                       animate={{}}
                       transition={{}}
-                      className="md:absolute first:md:relative"
+                      className="md:absolute md:top-0"
                     >
                       <h5 className="font-bold md:mb-4 md:text-2xl">
                         Weight gain plan
@@ -389,8 +386,8 @@ export function Layout513() {
                       </p>
                     </motion.div>
                   </ConditionalRender>
-                </Fragment>
-              </AnimatePresence>}
+                </>
+              )}
             </div>
           </div>
           <div className="hidden md:grid md:grid-cols-1 md:gap-4">
