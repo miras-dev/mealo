@@ -7,7 +7,7 @@ import {
   useScroll,
   useTransform,
 } from "framer-motion";
-import React, { Fragment, useRef } from "react";
+import React, { Fragment, useRef, useState, useEffect } from "react";
 import { RxChevronRight } from "react-icons/rx";
 
 const ConditionalRender = ({ condition, children }) => {
@@ -134,8 +134,14 @@ const useTablet = () => {
 };
 
 export function Layout513() {
+  const [mounted, setMounted] = useState(false);
   const tablet = useTablet();
   const mobile = useMobile();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   const useSctoll = useRelume({
     data: [
       {
@@ -227,7 +233,7 @@ export function Layout513() {
               </div>
             </div>
             <div className="flex flex-col justify-start gap-y-8">
-              <AnimatePresence>
+              {!mounted ? null : <AnimatePresence>
                 <Fragment>
                   <ConditionalRender condition={mobile.isMobile}>
                     <div>
@@ -384,7 +390,7 @@ export function Layout513() {
                     </motion.div>
                   </ConditionalRender>
                 </Fragment>
-              </AnimatePresence>
+              </AnimatePresence>}
             </div>
           </div>
           <div className="hidden md:grid md:grid-cols-1 md:gap-4">
