@@ -47,7 +47,7 @@ export function Navbar5() {
       <div className="size-full lg:flex lg:items-center lg:justify-between">
         <div className="lg:flex">
           <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
-            <a href="#">
+            <a href="/">
               <img
                 src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
                 alt="Logo image"
@@ -108,19 +108,19 @@ export function Navbar5() {
             className="overflow-auto px-[5%] lg:ml-6 lg:flex lg:items-center lg:px-0 lg:[--height-closed:auto] lg:[--height-open:auto]"
           >
             <a
-              href="#"
+              href="/plans"
               className="block py-3 text-md first:pt-7 lg:px-4 lg:py-6 lg:text-base first:lg:pt-6"
             >
               Plans
             </a>
             <a
-              href="#"
+              href="/meal"
               className="block py-3 text-md first:pt-7 lg:px-4 lg:py-6 lg:text-base first:lg:pt-6"
             >
               Meal menu
             </a>
             <a
-              href="#"
+              href="/about-us"
               className="block py-3 text-md first:pt-7 lg:px-4 lg:py-6 lg:text-base first:lg:pt-6"
             >
               About us
@@ -172,7 +172,7 @@ export function Navbar5() {
                           Company
                         </h4>
                         <a
-                          href="#"
+                          href="/about-us"
                           className="grid w-full grid-cols-[max-content_1fr] items-start gap-x-3 py-2"
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
@@ -189,7 +189,7 @@ export function Navbar5() {
                           </div>
                         </a>
                         <a
-                          href="#"
+                          href="/blogs"
                           className="grid w-full grid-cols-[max-content_1fr] items-start gap-x-3 py-2"
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
@@ -207,7 +207,7 @@ export function Navbar5() {
                           </div>
                         </a>
                         <a
-                          href="#"
+                          href="/about-us"
                           className="grid w-full grid-cols-[max-content_1fr] items-start gap-x-3 py-2"
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
@@ -224,7 +224,7 @@ export function Navbar5() {
                           </div>
                         </a>
                         <a
-                          href="#"
+                          href="/about-us"
                           className="grid w-full grid-cols-[max-content_1fr] items-start gap-x-3 py-2"
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
@@ -246,7 +246,7 @@ export function Navbar5() {
                           Resources
                         </h4>
                         <a
-                          href="#"
+                          href="/plans"
                           className="grid w-full grid-cols-[max-content_1fr] items-start gap-x-3 py-2"
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
@@ -263,7 +263,7 @@ export function Navbar5() {
                           </div>
                         </a>
                         <a
-                          href="#"
+                          href="/about-us"
                           className="grid w-full grid-cols-[max-content_1fr] items-start gap-x-3 py-2"
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
@@ -280,7 +280,7 @@ export function Navbar5() {
                           </div>
                         </a>
                         <a
-                          href="#"
+                          href="/meal"
                           className="grid w-full grid-cols-[max-content_1fr] items-start gap-x-3 py-2"
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
@@ -297,7 +297,7 @@ export function Navbar5() {
                           </div>
                         </a>
                         <a
-                          href="#"
+                          href="/about-us"
                           className="grid w-full grid-cols-[max-content_1fr] items-start gap-x-3 py-2"
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
@@ -322,7 +322,7 @@ export function Navbar5() {
                         </h4>
                         <div className="grid auto-cols-fr grid-cols-1 grid-rows-[auto_auto] items-start gap-y-2 lg:grid-rows-[auto]">
                           <a
-                            href="#"
+                            href="/blogs"
                             className="flex auto-cols-fr grid-cols-[0.6fr_1fr] flex-col gap-x-6 py-2 md:grid"
                           >
                             <div className="relative w-full pt-[66.66%]">
@@ -353,7 +353,7 @@ export function Navbar5() {
                             </div>
                           </a>
                           <a
-                            href="#"
+                            href="/blogs"
                             className="flex auto-cols-fr grid-cols-[0.6fr_1fr] flex-col gap-x-6 py-2 md:grid"
                           >
                             <div className="relative w-full pt-[66.66%]">

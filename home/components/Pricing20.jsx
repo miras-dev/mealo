@@ -18,7 +18,7 @@ export function Pricing20() {
             plans include veg and non-veg options.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-4">
           <div className="h-full border border-border-primary px-6 py-8 md:p-8">
             <h2 className="mb-1 text-md font-bold leading-[1.4] md:text-xl">
               Normal
@@ -140,11 +140,48 @@ export function Pricing20() {
                 </div>
                 <p>Nutritionist-designed plans</p>
               </div>
+            </div>
+          </div>
+          <div className="h-full border border-border-primary px-6 py-8 md:p-8">
+            <h2 className="mb-1 text-md font-bold leading-[1.4] md:text-xl">
+              Weight Gain
+            </h2>
+            <p>Muscle building nutrition</p>
+            <div className="my-8 h-px w-full bg-border-primary" />
+            <h3 className="my-2 text-6xl font-bold md:text-9xl lg:text-10xl">
+              AED 32
+            </h3>
+            <p>per day</p>
+            <div className="mt-6 md:mt-8">
+              <Button title="Choose plan" className="w-full">
+                Choose plan
+              </Button>
+            </div>
+            <div className="my-8 h-px w-full bg-border-primary" />
+            <div className="grid grid-cols-1 gap-y-4 py-2">
               <div className="flex self-start">
                 <div className="mr-4 flex-none self-start">
                   <BiCheck className="size-6" />
                 </div>
-                <p>Weight Gain</p>
+                <p>Higher calorie targets</p>
+              </div>
+              <div className="flex self-start">
+                <div className="mr-4 flex-none self-start">
+                  <BiCheck className="size-6" />
+                </div>
+                <p>Protein-rich meals</p>
+              </div>
+              <div className="flex self-start">
+                <div className="mr-4 flex-none self-start">
+                  <BiCheck className="size-6" />
+                </div>
+                <p>Generous portion sizes</p>
+              </div>
+              <div className="flex self-start">
+                <div className="mr-4 flex-none self-start">
+                  <BiCheck className="size-6" />
+                </div>
+                <p>Muscle gain optimized macros</p>
               </div>
             </div>
           </div>

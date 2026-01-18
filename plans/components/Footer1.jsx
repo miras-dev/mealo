@@ -128,38 +128,36 @@ export function Footer1() {
               </ul>
             </div>
             <div className="flex flex-col items-start justify-start">
-              <h2 className="mb-3 font-semibold md:mb-4">Instagram</h2>
+              <h2 className="mb-3 font-semibold md:mb-4">Follow Us</h2>
               <ul className="flex flex-col items-start">
                 <li className="py-2 text-sm">
                   <a href="#" className="flex items-center gap-3">
                     <BiLogoFacebookCircle className="size-6" />
-                    <span>WhatsApp</span>
+                    <span>Facebook</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
                   <a href="#" className="flex items-center gap-3">
                     <BiLogoInstagram className="size-6" />
-                    <span>LinkedIn</span>
+                    <span>Instagram</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
                   <a href="#" className="flex items-center gap-3">
                     <FaXTwitter className="size-6 p-0.5" />
-                    <span>YouTube</span>
+                    <span>Twitter</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
                   <a href="#" className="flex items-center gap-3">
                     <BiLogoLinkedinSquare className="size-6" />
-                    <span>
-                      © 2025 Mealo Balance Kitchen. All rights reserved.
-                    </span>
+                    <span>LinkedIn</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
                   <a href="#" className="flex items-center gap-3">
                     <BiLogoYoutube className="size-6" />
-                    <span>Privacy policy</span>
+                    <span>YouTube</span>
                   </a>
                 </li>
               </ul>
@@ -168,7 +166,7 @@ export function Footer1() {
         </div>
         <div className="h-px w-full bg-black" />
         <div className="flex flex-col-reverse items-start justify-between pb-4 pt-6 text-sm md:flex-row md:items-center md:pb-0 md:pt-8">
-          <p className="mt-6 md:mt-0">© 2024 Relume. All rights reserved.</p>
+          <p className="mt-6 md:mt-0">© 2025 Mealo Balance Kitchen. All rights reserved.</p>
           <ul className="grid grid-flow-row grid-cols-[max-content] justify-center gap-y-4 text-sm md:grid-flow-col md:gap-x-6 md:gap-y-0">
             <li className="underline">
               <a href="#">Cookie settings</a>
