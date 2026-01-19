@@ -11,7 +11,7 @@ export const Layout353 = (props) => {
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="grid grid-cols-1 items-start gap-y-12 md:grid-flow-row md:grid-cols-2 md:gap-x-12 lg:gap-x-20">
-          <div className="static md:sticky md:top-[30%]">
+          <div className="static md:sticky md:top-24">
             <p className="mb-3 font-semibold md:mb-4">{tagline}</p>
             <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
               {heading}
