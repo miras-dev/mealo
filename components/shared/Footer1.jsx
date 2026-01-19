@@ -71,27 +71,27 @@ export function Footer1() {
               <h2 className="mb-3 font-semibold md:mb-4">Plans</h2>
               <ul>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="/plans#normal" className="flex items-center gap-3">
                     <span>Normal plan</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="/plans#executive" className="flex items-center gap-3">
                     <span>Executive plan</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="/plans#weight-loss" className="flex items-center gap-3">
                     <span>Weight loss</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="/plans#muscle-gain" className="flex items-center gap-3">
                     <span>Muscle gain</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="/plans#company" className="flex items-center gap-3">
                     <span>Company</span>
                   </a>
                 </li>
@@ -101,65 +101,63 @@ export function Footer1() {
               <h2 className="mb-3 font-semibold md:mb-4">About us</h2>
               <ul>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="/about-us" className="flex items-center gap-3">
                     <span>Our story</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="/about-us#delivery" className="flex items-center gap-3">
                     <span>Delivery areas</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="/contact" className="flex items-center gap-3">
                     <span>Contact us</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
-                    <span>Follow us</span>
+                  <a href="/meals" className="flex items-center gap-3">
+                    <span>Our meals</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
-                    <span>Facebook</span>
+                  <a href="/blogs" className="flex items-center gap-3">
+                    <span>Blog</span>
                   </a>
                 </li>
               </ul>
             </div>
             <div className="flex flex-col items-start justify-start">
-              <h2 className="mb-3 font-semibold md:mb-4">Instagram</h2>
+              <h2 className="mb-3 font-semibold md:mb-4">Follow Us</h2>
               <ul className="flex flex-col items-start">
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="https://facebook.com/mealobalancekitchen" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
                     <BiLogoFacebookCircle className="size-6" />
-                    <span>WhatsApp</span>
+                    <span>Facebook</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="https://instagram.com/mealobalancekitchen" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
                     <BiLogoInstagram className="size-6" />
+                    <span>Instagram</span>
+                  </a>
+                </li>
+                <li className="py-2 text-sm">
+                  <a href="https://twitter.com/mealobalance" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+                    <FaXTwitter className="size-6 p-0.5" />
+                    <span>Twitter</span>
+                  </a>
+                </li>
+                <li className="py-2 text-sm">
+                  <a href="https://linkedin.com/company/mealo-balance-kitchen" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+                    <BiLogoLinkedinSquare className="size-6" />
                     <span>LinkedIn</span>
                   </a>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
-                    <FaXTwitter className="size-6 p-0.5" />
-                    <span>YouTube</span>
-                  </a>
-                </li>
-                <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
-                    <BiLogoLinkedinSquare className="size-6" />
-                    <span>
-                      © 2025 Mealo Balance Kitchen. All rights reserved.
-                    </span>
-                  </a>
-                </li>
-                <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <a href="https://youtube.com/@mealobalancekitchen" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
                     <BiLogoYoutube className="size-6" />
-                    <span>Privacy policy</span>
+                    <span>YouTube</span>
                   </a>
                 </li>
               </ul>
@@ -168,16 +166,16 @@ export function Footer1() {
         </div>
         <div className="h-px w-full bg-black" />
         <div className="flex flex-col-reverse items-start justify-between pb-4 pt-6 text-sm md:flex-row md:items-center md:pb-0 md:pt-8">
-          <p className="mt-6 md:mt-0">© 2024 Relume. All rights reserved.</p>
+          <p className="mt-6 md:mt-0">© 2025 Mealo Balance Kitchen. All rights reserved.</p>
           <ul className="grid grid-flow-row grid-cols-[max-content] justify-center gap-y-4 text-sm md:grid-flow-col md:gap-x-6 md:gap-y-0">
             <li className="underline">
-              <a href="#">Cookie settings</a>
+              <a href="/privacy">Privacy Policy</a>
             </li>
             <li className="underline">
-              <a href="#">Terms of Service</a>
+              <a href="/terms">Terms of Service</a>
             </li>
             <li className="underline">
-              <a href="#">Cookies Settings</a>
+              <a href="/contact">Contact Us</a>
             </li>
           </ul>
         </div>

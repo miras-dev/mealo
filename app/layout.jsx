@@ -1,5 +1,6 @@
 import "./globals.css";
 import { generateMetadata as generateSEOMetadata, generateOrganizationSchema } from "@/lib/seo";
+import { GoogleAnalytics } from "@/lib/analytics";
 import { Navbar5 } from "@/components/shared/Navbar5";
 import { Footer1 } from "@/components/shared/Footer1";
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
+        <GoogleAnalytics />
         <Navbar5 />
         <main>{children}</main>
         <Footer1 />

@@ -9,6 +9,8 @@ import {
 } from "@relume_io/relume-ui";
 import clsx from "clsx";
 import React, { useEffect, useState } from "react";
+import { mealsData } from "@/lib/mealsData";
+import Link from "next/link";
 
 const useCarousel = () => {
   const [api, setApi] = useState();
@@ -60,89 +62,37 @@ export function Gallery18() {
           >
             <div className="relative">
               <CarouselContent className="ml-0">
-                <CarouselItem className="basis-1/2 px-3 md:basis-1/3 md:px-4">
-                  <div className="w-full">
-                    <img
-                      src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                      alt="Relume placeholder image 1"
-                      className="aspect-square size-full object-cover"
-                    />
-                  </div>
-                </CarouselItem>
-                <CarouselItem className="basis-1/2 px-3 md:basis-1/3 md:px-4">
-                  <div className="w-full">
-                    <img
-                      src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                      alt="Relume placeholder image 2"
-                      className="aspect-square size-full object-cover"
-                    />
-                  </div>
-                </CarouselItem>
-                <CarouselItem className="basis-1/2 px-3 md:basis-1/3 md:px-4">
-                  <div className="w-full">
-                    <img
-                      src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                      alt="Relume placeholder image 3"
-                      className="aspect-square size-full object-cover"
-                    />
-                  </div>
-                </CarouselItem>
-                <CarouselItem className="basis-1/2 px-3 md:basis-1/3 md:px-4">
-                  <div className="w-full">
-                    <img
-                      src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                      alt="Relume placeholder image 4"
-                      className="aspect-square size-full object-cover"
-                    />
-                  </div>
-                </CarouselItem>
-                <CarouselItem className="basis-1/2 px-3 md:basis-1/3 md:px-4">
-                  <div className="w-full">
-                    <img
-                      src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                      alt="Relume placeholder image 5"
-                      className="aspect-square size-full object-cover"
-                    />
-                  </div>
-                </CarouselItem>
-                <CarouselItem className="basis-1/2 px-3 md:basis-1/3 md:px-4">
-                  <div className="w-full">
-                    <img
-                      src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                      alt="Relume placeholder image 6"
-                      className="aspect-square size-full object-cover"
-                    />
-                  </div>
-                </CarouselItem>
+                {mealsData.map((meal, index) => (
+                  <CarouselItem key={meal.slug} className="basis-1/2 px-3 md:basis-1/3 md:px-4">
+                    <Link href={`/meals/${meal.slug}`} className="group block w-full">
+                      <div className="relative w-full overflow-hidden rounded-lg">
+                        <img
+                          src={meal.image}
+                          alt={meal.name}
+                          className="aspect-square size-full object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                          <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
+                            <h3 className="text-lg font-bold">{meal.name}</h3>
+                            <p className="text-sm">{meal.calories} kcal</p>
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  </CarouselItem>
+                ))}
               </CarouselContent>
               <CarouselPrevious className="hidden md:flex md:size-12 lg:size-14" />
               <CarouselNext className="hidden md:flex md:size-12 lg:size-14" />
             </div>
             <div className="mt-[30px] flex items-center justify-center md:mt-[46px]">
-              <button
-                onClick={carouselState.handleDotClick(0)}
-                className={carouselState.dotClassName(0)}
-              />
-              <button
-                onClick={carouselState.handleDotClick(1)}
-                className={carouselState.dotClassName(1)}
-              />
-              <button
-                onClick={carouselState.handleDotClick(2)}
-                className={carouselState.dotClassName(2)}
-              />
-              <button
-                onClick={carouselState.handleDotClick(3)}
-                className={carouselState.dotClassName(3)}
-              />
-              <button
-                onClick={carouselState.handleDotClick(4)}
-                className={carouselState.dotClassName(4)}
-              />
-              <button
-                onClick={carouselState.handleDotClick(5)}
-                className={carouselState.dotClassName(5)}
-              />
+              {mealsData.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={carouselState.handleDotClick(index)}
+                  className={carouselState.dotClassName(index)}
+                />
+              ))}
             </div>
           </Carousel>
         </div>
