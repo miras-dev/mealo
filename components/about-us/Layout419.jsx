@@ -6,7 +6,7 @@ import { RxChevronRight } from "react-icons/rx";
 
 export function Layout419() {
   return (
-    <section id="relume" className="pt-24 md:pt-0">
+    <section className="pt-24 md:pt-0">
       <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-y-0">
         <div>
           <div className="md:sticky md:top-0 md:gap-y-0">
@@ -44,7 +44,7 @@ export function Layout419() {
               <div className="mb-6 md:mb-8">
                 <img
                   src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Relume placeholder image 1"
+                  alt="Meal image 1"
                   className="size-full object-cover"
                 />
               </div>
@@ -63,7 +63,7 @@ export function Layout419() {
               <div className="mb-6 md:mb-8">
                 <img
                   src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Relume placeholder image 2"
+                  alt="Meal image 2"
                   className="size-full object-cover"
                 />
               </div>
@@ -82,7 +82,7 @@ export function Layout419() {
               <div className="mb-6 md:mb-8">
                 <img
                   src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Relume placeholder image 3"
+                  alt="Meal image 3"
                   className="size-full object-cover"
                 />
               </div>
@@ -101,7 +101,7 @@ export function Layout419() {
               <div className="mb-6 md:mb-8">
                 <img
                   src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Relume placeholder image 4"
+                  alt="Meal image 4"
                   className="size-full object-cover"
                 />
               </div>

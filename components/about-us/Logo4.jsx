@@ -6,7 +6,7 @@ import { RxChevronRight } from "react-icons/rx";
 
 export function Logo4() {
   return (
-    <section id="relume" className="px-[5%] py-12 md:py-16 lg:py-20">
+    <section className="px-[5%] py-12 md:py-16 lg:py-20">
       <div className="container">
         <div className="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
           <div>
@@ -34,58 +34,58 @@ export function Logo4() {
           <div className="grid grid-cols-2 gap-2">
             <div className="flex w-full items-start justify-center justify-self-center bg-neutral-lightest px-4 pb-4 pt-[0.875rem] md:p-[0.875rem]">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-                alt="Relume placeholder image"
-                className="max-h-12 md:max-h-14"
+                src="/images/CompanyLogo.svg"
+                alt="Meal image"
+                className="max-h-12 md:max-h-6 my-3"
               />
             </div>
             <div className="flex w-full items-start justify-center justify-self-center bg-neutral-lightest px-4 pb-4 pt-[0.875rem] md:p-[0.875rem]">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-                alt="Relume placeholder image"
-                className="max-h-12 md:max-h-14"
+                src="/images/CompanyLogo.svg"
+                alt="Meal image"
+                className="max-h-12 md:max-h-6 my-3"
               />
             </div>
             <div className="flex w-full items-start justify-center justify-self-center bg-neutral-lightest px-4 pb-4 pt-[0.875rem] md:p-[0.875rem]">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-                alt="Relume placeholder image"
-                className="max-h-12 md:max-h-14"
+                src="/images/CompanyLogo.svg"
+                alt="Meal image"
+                className="max-h-12 md:max-h-6 my-3"
               />
             </div>
             <div className="flex w-full items-start justify-center justify-self-center bg-neutral-lightest px-4 pb-4 pt-[0.875rem] md:p-[0.875rem]">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-                alt="Relume placeholder image"
-                className="max-h-12 md:max-h-14"
+                src="/images/CompanyLogo.svg"
+                alt="Meal image"
+                className="max-h-12 md:max-h-6 my-3"
               />
             </div>
             <div className="flex w-full items-start justify-center justify-self-center bg-neutral-lightest px-4 pb-4 pt-[0.875rem] md:p-[0.875rem]">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-                alt="Relume placeholder image"
-                className="max-h-12 md:max-h-14"
+                src="/images/CompanyLogo.svg"
+                alt="Meal image"
+                className="max-h-12 md:max-h-6 my-3"
               />
             </div>
             <div className="flex w-full items-start justify-center justify-self-center bg-neutral-lightest px-4 pb-4 pt-[0.875rem] md:p-[0.875rem]">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-                alt="Relume placeholder image"
-                className="max-h-12 md:max-h-14"
+                src="/images/CompanyLogo.svg"
+                alt="Meal image"
+                className="max-h-12 md:max-h-6 my-3"
               />
             </div>
             <div className="flex w-full items-start justify-center justify-self-center bg-neutral-lightest px-4 pb-4 pt-[0.875rem] md:p-[0.875rem]">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-                alt="Relume placeholder image"
-                className="max-h-12 md:max-h-14"
+                src="/images/CompanyLogo.svg"
+                alt="Meal image"
+                className="max-h-12 md:max-h-6 my-3"
               />
             </div>
             <div className="flex w-full items-start justify-center justify-self-center bg-neutral-lightest px-4 pb-4 pt-[0.875rem] md:p-[0.875rem]">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-                alt="Relume placeholder image"
-                className="max-h-12 md:max-h-14"
+                src="/images/CompanyLogo.svg"
+                alt="Meal image"
+                className="max-h-12 md:max-h-6 my-3"
               />
             </div>
           </div>

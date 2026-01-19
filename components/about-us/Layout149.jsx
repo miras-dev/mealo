@@ -6,7 +6,7 @@ import { RxChevronRight } from "react-icons/rx";
 
 export function Layout149() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="flex flex-col items-center">
           <div className="mb-12 md:mb-18 lg:mb-20">
@@ -25,26 +25,28 @@ export function Layout149() {
                 comes from knowing exactly what goes into every meal.
               </p>
               <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-6 py-2">
+             
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-                  alt="Webflow logo 1"
-                  className="max-h-14"
+                  src="/images/CompanyLogo.svg"
+                  alt="Company logo"
+                  className="max-h-6"
                 />
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-                  alt="Relume logo 1"
-                  className="max-h-14"
+                  src="/images/CompanyLogo.svg"
+                  alt="Company logo"
+                  className="max-h-6"
                 />
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-                  alt="Webflow logo 2"
-                  className="max-h-14"
+                  src="/images/CompanyLogo.svg"
+                  alt="Company logo"
+                  className="max-h-6"
                 />
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-                  alt="Relume logo 2"
-                  className="max-h-14"
+                  src="/images/CompanyLogo.svg"
+                  alt="Company logo"
+                  className="max-h-6"
                 />
+               
               </div>
               <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:mt-8">
                 <Button title="View" variant="secondary">
@@ -66,7 +68,7 @@ export function Layout149() {
           <img
             src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
             className="size-full object-cover"
-            alt="Relume placeholder image"
+            alt="Meal image"
           />
         </div>
       </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { Button, Input } from "@relume_io/relume-ui";
+import Image from "next/image";
 import React, { useState } from "react";
 import {
   BiLogoFacebookCircle,
@@ -29,15 +30,17 @@ const useForm = () => {
 export function Footer1() {
   const formState = useForm();
   return (
-    <footer id="relume" className="px-[5%] py-12 md:py-18 lg:py-20">
+    <footer className="px-[5%] py-12 md:py-18 lg:py-20">
       <div className="container">
         <div className="grid grid-cols-1 gap-x-[8vw] gap-y-12 pb-12 md:gap-y-16 md:pb-18 lg:grid-cols-[0.75fr_1fr] lg:gap-y-4 lg:pb-20">
           <div className="flex flex-col">
             <a href="#" className="mb-5 md:mb-6">
-              <img
-                src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
-                alt="Logo image"
-                className="inline-block"
+              <Image 
+                src="/images/CompanyLogo.svg"
+                alt="Mealo Logo"
+                width={150}
+                height={40}
+                className="h-8 w-auto md:h-10"
               />
             </a>
             <p className="mb-5 md:mb-6">

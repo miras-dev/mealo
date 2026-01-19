@@ -41,7 +41,6 @@ export function Navbar5() {
   const useActive = useRelume();
   return (
     <section
-      id="relume"
       className="relative flex w-full items-center justify-between border-b border-border-primary bg-background-primary lg:min-h-18 lg:px-[5%]"
     >
       <div className="size-full lg:flex lg:items-center lg:justify-between">
@@ -177,8 +176,8 @@ export function Navbar5() {
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
                             <img
-                              src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                              alt="Icon 1"
+                              src="/images/CompanyLogo.svg"
+                              alt="Company icon"
                             />
                           </div>
                           <div className="flex flex-col items-start justify-center">
@@ -194,8 +193,8 @@ export function Navbar5() {
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
                             <img
-                              src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                              alt="Icon 2"
+                              src="/images/CompanyLogo.svg"
+                              alt="Company icon"
                             />
                           </div>
                           <div className="flex flex-col items-start justify-center">
@@ -212,8 +211,8 @@ export function Navbar5() {
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
                             <img
-                              src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                              alt="Icon 3"
+                              src="/images/CompanyLogo.svg"
+                              alt="Company icon"
                             />
                           </div>
                           <div className="flex flex-col items-start justify-center">
@@ -229,8 +228,8 @@ export function Navbar5() {
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
                             <img
-                              src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                              alt="Icon 4"
+                              src="/images/CompanyLogo.svg"
+                              alt="Company icon"
                             />
                           </div>
                           <div className="flex flex-col items-start justify-center">
@@ -251,8 +250,8 @@ export function Navbar5() {
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
                             <img
-                              src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                              alt="Icon 5"
+                              src="/images/CompanyLogo.svg"
+                              alt="Company icon"
                             />
                           </div>
                           <div className="flex flex-col items-start justify-center">
@@ -268,8 +267,8 @@ export function Navbar5() {
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
                             <img
-                              src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                              alt="Icon 6"
+                              src="/images/CompanyLogo.svg"
+                              alt="Company icon"
                             />
                           </div>
                           <div className="flex flex-col items-start justify-center">
@@ -285,8 +284,8 @@ export function Navbar5() {
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
                             <img
-                              src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                              alt="Icon 7"
+                              src="/images/CompanyLogo.svg"
+                              alt="Company icon"
                             />
                           </div>
                           <div className="flex flex-col items-start justify-center">
@@ -302,8 +301,8 @@ export function Navbar5() {
                         >
                           <div className="flex size-6 flex-col items-center justify-center">
                             <img
-                              src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                              alt="Icon 8"
+                              src="/images/CompanyLogo.svg"
+                              alt="Company icon"
                             />
                           </div>
                           <div className="flex flex-col items-start justify-center">
@@ -328,7 +327,7 @@ export function Navbar5() {
                             <div className="relative w-full pt-[66.66%]">
                               <img
                                 src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                                alt="Relume placeholder image 1"
+                                alt="Blog image 1"
                                 className="absolute inset-0 size-full object-cover"
                               />
                             </div>
@@ -359,7 +358,7 @@ export function Navbar5() {
                             <div className="relative w-full pt-[66.66%]">
                               <img
                                 src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                                alt="Relume placeholder image 2"
+                                alt="Blog image 2"
                                 className="absolute inset-0 size-full object-cover"
                               />
                             </div>

@@ -2,6 +2,7 @@
 
 import { Button, useMediaQuery } from "@relume_io/relume-ui";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import React, { useState } from "react";
 
 export function Navbar5() {
@@ -15,17 +16,18 @@ export function Navbar5() {
 
   return (
     <section
-      id="relume"
       className="relative flex w-full items-center justify-between border-b border-border-primary bg-background-primary lg:min-h-18 lg:px-[5%]"
     >
       <div className="size-full lg:flex lg:items-center lg:justify-between">
         <div className="lg:flex lg:flex-1 lg:items-center">
           <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
             <a href="/" className="flex items-center">
-              <img
-                src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
+              <Image
+                src="/images/CompanyLogo.svg"
                 alt="Mealo Logo"
-                className="h-8"
+                width={150}
+                height={40}
+                className="h-8 w-auto md:h-10"
               />
             </a>
             <button
@@ -112,8 +114,8 @@ export function Navbar5() {
           <Button variant="secondary" asChild>
             <a href="/contact">Contact Us</a>
           </Button>
-          <Button asChild>
-            <a href="/plans">Order Now</a>
+           <Button className="w-full bg-black text-white hover:bg-gray-800">
+              Order now 
           </Button>
         </div>
       </div>

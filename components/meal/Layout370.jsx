@@ -6,7 +6,7 @@ import { RxChevronRight } from "react-icons/rx";
 
 export function Layout370() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="rb-12 mb-12 md:mb-18 lg:mb-20">
           <div className="mx-auto max-w-lg text-center">
@@ -25,7 +25,7 @@ export function Layout370() {
               <div className="flex items-center justify-center">
                 <img
                   src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Relume placeholder image 1"
+                  alt="Meal image 1"
                   className="w-full object-cover"
                 />
               </div>
@@ -53,7 +53,7 @@ export function Layout370() {
               <div className="flex items-center justify-center">
                 <img
                   src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Relume placeholder image 2"
+                  alt="Meal image 2"
                   className="w-full object-cover"
                 />
               </div>
@@ -81,7 +81,7 @@ export function Layout370() {
               <div className="flex items-center justify-center">
                 <img
                   src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-portrait.svg"
-                  alt="Relume placeholder image 3"
+                  alt="Meal image 3"
                   className="size-full object-cover"
                 />
               </div>

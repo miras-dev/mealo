@@ -29,7 +29,7 @@ const useForm = () => {
 export function Footer1() {
   const formState = useForm();
   return (
-    <footer id="relume" className="px-[5%] py-12 md:py-18 lg:py-20">
+    <footer className="px-[5%] py-12 md:py-18 lg:py-20">
       <div className="container">
         <div className="grid grid-cols-1 gap-x-[8vw] gap-y-12 pb-12 md:gap-y-16 md:pb-18 lg:grid-cols-[0.75fr_1fr] lg:gap-y-4 lg:pb-20">
           <div className="flex flex-col">
@@ -168,7 +168,7 @@ export function Footer1() {
         </div>
         <div className="h-px w-full bg-black" />
         <div className="flex flex-col-reverse items-start justify-between pb-4 pt-6 text-sm md:flex-row md:items-center md:pb-0 md:pt-8">
-          <p className="mt-6 md:mt-0">© 2024 Relume. All rights reserved.</p>
+          <p className="mt-6 md:mt-0">© 2024 Mealo Balance Kitchen. All rights reserved.</p>
           <ul className="grid grid-flow-row grid-cols-[max-content] justify-center gap-y-4 text-sm md:grid-flow-col md:gap-x-6 md:gap-y-0">
             <li className="underline">
               <a href="#">Cookie settings</a>
