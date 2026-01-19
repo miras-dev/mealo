@@ -29,7 +29,7 @@ export function Pricing20() {
             </h3>
             <p>per week</p>
             <div className="mt-6 md:mt-8">
-              <Button title="Choose plan" className="w-full">
+              <Button className="w-full bg-black text-white hover:bg-gray-800">
                 Choose plan
               </Button>
             </div>
@@ -66,7 +66,7 @@ export function Pricing20() {
             </h3>
             <p>per week</p>
             <div className="mt-6 md:mt-8">
-              <Button title="Choose plan" className="w-full">
+              <Button className="w-full bg-black text-white hover:bg-gray-800">
                 Choose plan
               </Button>
             </div>
@@ -109,7 +109,7 @@ export function Pricing20() {
             </h3>
             <p>per week</p>
             <div className="mt-6 md:mt-8">
-              <Button title="Choose plan" className="w-full">
+              <Button className="w-full bg-black text-white hover:bg-gray-800">
                 Choose plan
               </Button>
             </div>

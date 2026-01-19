@@ -110,10 +110,10 @@ export function Navbar5() {
         </div>
         <div className="hidden items-center gap-4 px-[5%] lg:flex lg:px-0">
           <Button variant="secondary" asChild>
-            <a href="/plans">Sign in</a>
+            <a href="/contact">Contact Us</a>
           </Button>
           <Button asChild>
-            <a href="/plans">Order</a>
+            <a href="/plans">Order Now</a>
           </Button>
         </div>
       </div>
