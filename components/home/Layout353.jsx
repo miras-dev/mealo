@@ -8,7 +8,7 @@ export const Layout353 = (props) => {
   };
 
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="grid grid-cols-1 items-start gap-y-12 md:grid-flow-row md:grid-cols-2 md:gap-x-12 lg:gap-x-20">
           <div className="static md:sticky md:top-24">
@@ -63,7 +63,7 @@ export const Layout353Defaults = {
   featureSections: [
     {
       icon: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg",
+        src: "/images/CompanyLogo.svg",
         alt: "Step 1 icon",
       },
       title: "Pick your plan and goals",
@@ -72,7 +72,7 @@ export const Layout353Defaults = {
     },
     {
       icon: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg",
+        src: "/images/CompanyLogo.svg",
         alt: "Step 2 icon",
       },
       title: "Choose meals for the week",
@@ -81,7 +81,7 @@ export const Layout353Defaults = {
     },
     {
       icon: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg",
+        src: "/images/CompanyLogo.svg",
         alt: "Step 3 icon",
       },
       title: "We prepare fresh each morning",
@@ -90,7 +90,7 @@ export const Layout353Defaults = {
     },
     {
       icon: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg",
+        src: "/images/CompanyLogo.svg",
         alt: "Step 4 icon",
       },
       title: "Delivered to your door daily",

@@ -6,7 +6,7 @@ import { RxChevronRight } from "react-icons/rx";
 
 export function Layout357() {
   return (
-    <section id="relume">
+    <section>
       <div className="sticky top-0">
         <Fragment>
           <div className="relative -top-32 h-0" />
@@ -49,7 +49,7 @@ export function Layout357() {
                       <img
                         src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-1.svg"
                         className="h-[25rem] w-full object-cover sm:h-[30rem] lg:h-[60vh]"
-                        alt="Relume placeholder image 1"
+                        alt="Meal image 1"
                       />
                     </div>
                   </div>
@@ -101,7 +101,7 @@ export function Layout357() {
                       <img
                         src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-2.svg"
                         className="h-[25rem] w-full object-cover sm:h-[30rem] lg:h-[60vh]"
-                        alt="Relume placeholder image 2"
+                        alt="Meal image 2"
                       />
                     </div>
                   </div>
@@ -151,7 +151,7 @@ export function Layout357() {
                       <img
                         src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-3.svg"
                         className="h-[25rem] w-full object-cover sm:h-[30rem] lg:h-[60vh]"
-                        alt="Relume placeholder image 3"
+                        alt="Meal image 3"
                       />
                     </div>
                   </div>
@@ -203,7 +203,7 @@ export function Layout357() {
                       <img
                         src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-4.svg"
                         className="h-[25rem] w-full object-cover sm:h-[30rem] lg:h-[60vh]"
-                        alt="Relume placeholder image 4"
+                        alt="Meal image 4"
                       />
                     </div>
                   </div>

@@ -45,7 +45,7 @@ const useCarousel = () => {
 export function Gallery18() {
   const carouselState = useCarousel();
   return (
-    <section id="relume">
+    <section>
       <div className="px-[5%] py-16 md:py-24 lg:py-28">
         <div className="container">
           <div className="rb-12 mb-12 text-center md:mb-18 lg:mb-20">

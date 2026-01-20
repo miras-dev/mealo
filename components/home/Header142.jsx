@@ -90,7 +90,6 @@ export const Header142 = (props) => {
 
   return (
     <section
-      id="relume"
       className="relative flex h-svh items-center justify-center overflow-hidden lg:h-screen"
       onMouseMove={handleMouseMove}
     >
@@ -122,7 +121,7 @@ export const Header142Defaults = {
   description:
     "Real Kerala flavours prepared fresh each morning. Calorie-aligned portions matched to your goals, not guesswork. Reliable delivery at the same time, every day.",
   buttons: [
-    { title: "Choose a plan" },
+    { title: "Choose a plan", variant: "secondary" },
     { title: "View weekly menu", variant: "secondary" }
   ],
   group1Images: [

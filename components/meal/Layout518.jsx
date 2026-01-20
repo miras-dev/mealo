@@ -70,7 +70,6 @@ export function Layout518() {
   const scrollAnimation = useRelume();
   return (
     <section
-      id="relume"
       ref={scrollAnimation.containerRef}
       className="relative px-[5%] py-16 md:px-0 md:py-24 lg:h-[250vh] lg:py-0"
     >
@@ -105,7 +104,7 @@ export function Layout518() {
             <img
               src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
               className="size-full object-cover"
-              alt="Relume placeholder image"
+              alt="Meal image"
             />
             <div className="absolute inset-0 bg-black/50" />
           </div>
@@ -115,9 +114,9 @@ export function Layout518() {
             <div className="mx-auto flex max-w-md flex-col items-center justify-center lg:max-w-full">
               <div className="mb-3 md:mb-4">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
+                  src="/images/CompanyLogo.svg"
                   className="size-12 object-cover"
-                  alt="Relume placeholder image 1"
+                  alt="Meal image 1"
                 />
               </div>
               <h3 className="mb-3 text-4xl font-bold leading-[1.2] md:mb-4 md:text-5xl">
@@ -149,9 +148,9 @@ export function Layout518() {
             <div className="mx-auto flex max-w-md flex-col items-center justify-center lg:max-w-full">
               <div className="mb-3 md:mb-4">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
+                  src="/images/CompanyLogo.svg"
                   className="size-12 object-cover"
-                  alt="Relume placeholder image 2"
+                  alt="Meal image 2"
                 />
               </div>
               <h3 className="mb-3 text-4xl font-bold leading-[1.2] md:mb-4 md:text-5xl">
@@ -216,7 +215,7 @@ export function Layout518() {
                 <img
                   src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
                   className="size-full object-cover"
-                  alt="Relume placeholder image"
+                  alt="Meal image"
                 />
                 <div className="absolute inset-0 bg-black/50" />
               </div>
@@ -232,9 +231,9 @@ export function Layout518() {
                 <div className="mx-auto flex max-w-md flex-col items-center justify-center lg:max-w-full">
                   <div className="mb-3 md:mb-4">
                     <img
-                      src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
+                      src="/images/CompanyLogo.svg"
                       className="size-12 object-cover"
-                      alt="Relume placeholder image 1"
+                      alt="Meal image 1"
                     />
                   </div>
                   <h3 className="mb-3 text-4xl font-bold leading-[1.2] md:mb-4 md:text-5xl lg:text-6xl">
@@ -260,9 +259,9 @@ export function Layout518() {
                 <div className="mx-auto flex max-w-md flex-col items-center justify-center lg:max-w-full">
                   <div className="mb-3 md:mb-4">
                     <img
-                      src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
+                      src="/images/CompanyLogo.svg"
                       className="size-12 object-cover"
-                      alt="Relume placeholder image 2"
+                      alt="Meal image 2"
                     />
                   </div>
                   <h3 className="mb-3 text-4xl font-bold leading-[1.2] md:mb-4 md:text-5xl lg:text-6xl">

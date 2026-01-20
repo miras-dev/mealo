@@ -5,7 +5,7 @@ import React from "react";
 
 export function Cta31() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container flex flex-col items-center">
         <div className="mb-12 max-w-lg text-center md:mb-18 lg:mb-20">
           <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
@@ -25,7 +25,7 @@ export function Cta31() {
         <img
           src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
           className="size-full object-cover"
-          alt="Relume placeholder image"
+          alt="Meal image"
         />
       </div>
     </section>

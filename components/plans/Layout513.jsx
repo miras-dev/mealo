@@ -12,7 +12,7 @@ export function Layout513() {
         "Larger portions of the same meals, with priority delivery and spice customisation.",
       image: {
         src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-1-portrait.svg",
-        alt: "Relume placeholder image 1",
+        alt: "Meal image 1",
       },
     },
     {
@@ -21,7 +21,7 @@ export function Layout513() {
         "Larger portions of the same meals, with priority delivery and spice customisation.",
       image: {
         src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-2-portrait.svg",
-        alt: "Relume placeholder image 2",
+        alt: "Meal image 2",
       },
     },
     {
@@ -30,7 +30,7 @@ export function Layout513() {
         "Higher-calorie portions designed to support steady muscle and weight gain with balanced nutrition.",
       image: {
         src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-3-portrait.svg",
-        alt: "Relume placeholder image 3",
+        alt: "Meal image 3",
       },
     },
     {
@@ -39,13 +39,13 @@ export function Layout513() {
         "Larger portions of the same meals, with priority delivery and spice customisation.",
       image: {
         src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-4-portrait.svg",
-        alt: "Relume placeholder image 4",
+        alt: "Meal image 4",
       },
     },
   ];
 
   return (
-    <section id="relume" className="pt-24 md:pt-0">
+    <section className="pt-24 md:pt-0">
       <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-y-0">
         <div>
           <div className="md:sticky md:top-0 md:gap-y-0">

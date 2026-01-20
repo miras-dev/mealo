@@ -6,7 +6,7 @@ import { RxChevronRight } from "react-icons/rx";
 
 export function Layout394() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="mx-auto mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20">
           <p className="mb-3 font-semibold md:mb-4">Why Mealo</p>
@@ -41,7 +41,7 @@ export function Layout394() {
             <div className="flex w-full flex-col items-center justify-center self-start">
               <img
                 src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                alt="Relume placeholder image 1"
+                alt="Authentic meal image"
               />
             </div>
           </div>
@@ -68,7 +68,7 @@ export function Layout394() {
             <div className="flex w-full flex-col items-center justify-center self-start">
               <img
                 src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                alt="Relume placeholder image 1"
+                alt="Flexible meal image"
               />
             </div>
           </div>
@@ -95,7 +95,7 @@ export function Layout394() {
             <div className="flex w-full flex-col items-center justify-center self-start">
               <img
                 src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                alt="Relume placeholder image 1"
+                alt="Reliable meal image"
               />
             </div>
           </div>
