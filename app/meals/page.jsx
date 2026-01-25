@@ -4,7 +4,7 @@ import { Gallery18 } from "@/components/meal/Gallery18";
 import { Layout370 } from "@/components/meal/Layout370";
 import { Layout518 } from "@/components/meal/Layout518";
 import { Cta31 } from "@/components/shared/Cta31";
-import { Faq9 } from "@/components/meal/Faq9";
+import { Faq9 } from "@/components/shared/Faq9";
 import { generateMetadata as generateSEOMetadata } from "@/lib/seo";
 
 export const metadata = generateSEOMetadata({

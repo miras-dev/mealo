@@ -23,11 +23,11 @@ export function Navbar5() {
           <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
             <a href="/" className="flex items-center">
               <Image
-                src="/images/CompanyLogo.svg"
+                src="/images/CompanyMainLogo.svg"
                 alt="Mealo Logo"
                 width={150}
                 height={40}
-                className="h-8 w-auto md:h-10"
+                className="h-8 w-auto md:h-6 mt-2 me-5"
               />
             </a>
             <button
@@ -111,12 +111,14 @@ export function Navbar5() {
           </motion.nav>
         </div>
         <div className="hidden items-center gap-4 px-[5%] lg:flex lg:px-0">
-          <Button variant="secondary" asChild>
-            <a href="/contact">Contact Us</a>
-          </Button>
-           <Button className="w-full bg-black text-white hover:bg-gray-800">
+          <button 
+            className="button-secondary"
+          variant="secondary">
+            <a href="/contact">Contact</a>
+          </button>
+           <button className="w-full bg-black text-white hover:bg-gray-800 button-primary">
               Order now 
-          </Button>
+          </button>
         </div>
       </div>
     </section>

@@ -66,9 +66,9 @@ export function Layout149() {
         </div>
         <div>
           <img
-            src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+            src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=1200&q=80"
             className="size-full object-cover"
-            alt="Meal image"
+            alt="Fresh Kerala ingredients and spices"
           />
         </div>
       </div>

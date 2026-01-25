@@ -43,8 +43,8 @@ export function Layout419() {
             <div className="max-w-md">
               <div className="mb-6 md:mb-8">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Meal image 1"
+                  src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&q=80"
+                  alt="Professional kitchen workspace"
                   className="size-full object-cover"
                 />
               </div>
@@ -62,8 +62,8 @@ export function Layout419() {
             <div className="max-w-md">
               <div className="mb-6 md:mb-8">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Meal image 2"
+                  src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=800&q=80"
+                  alt="Fresh vegetable preparation"
                   className="size-full object-cover"
                 />
               </div>
@@ -81,8 +81,8 @@ export function Layout419() {
             <div className="max-w-md">
               <div className="mb-6 md:mb-8">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Meal image 3"
+                  src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
+                  alt="Hygiene certified kitchen"
                   className="size-full object-cover"
                 />
               </div>
@@ -100,8 +100,8 @@ export function Layout419() {
             <div className="max-w-md">
               <div className="mb-6 md:mb-8">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Meal image 4"
+                  src="https://images.unsplash.com/photo-1577219491135-ce391730fb4c?w=800&q=80"
+                  alt="Food quality inspection"
                   className="size-full object-cover"
                 />
               </div>

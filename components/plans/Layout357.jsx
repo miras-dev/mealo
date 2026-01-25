@@ -47,9 +47,9 @@ export function Layout357() {
                     </div>
                     <div className="relative">
                       <img
-                        src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-1.svg"
+                        src="https://images.unsplash.com/photo-1547592180-85f173990554?w=1200&q=80"
                         className="h-[25rem] w-full object-cover sm:h-[30rem] lg:h-[60vh]"
-                        alt="Meal image 1"
+                        alt="Fresh meals delivered daily"
                       />
                     </div>
                   </div>
@@ -99,9 +99,9 @@ export function Layout357() {
                     </div>
                     <div className="relative">
                       <img
-                        src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-2.svg"
+                        src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80"
                         className="h-[25rem] w-full object-cover sm:h-[30rem] lg:h-[60vh]"
-                        alt="Meal image 2"
+                        alt="Balanced nutrition meals"
                       />
                     </div>
                   </div>
@@ -149,9 +149,9 @@ export function Layout357() {
                     </div>
                     <div className="relative">
                       <img
-                        src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-3.svg"
+                        src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=1200&q=80"
                         className="h-[25rem] w-full object-cover sm:h-[30rem] lg:h-[60vh]"
-                        alt="Meal image 3"
+                        alt="Authentic Kerala cuisine"
                       />
                     </div>
                   </div>
@@ -201,9 +201,9 @@ export function Layout357() {
                     </div>
                     <div className="relative">
                       <img
-                        src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-4.svg"
+                        src="https://images.unsplash.com/photo-1526367790999-0150786686a2?w=1200&q=80"
                         className="h-[25rem] w-full object-cover sm:h-[30rem] lg:h-[60vh]"
-                        alt="Meal image 4"
+                        alt="Reliable meal delivery"
                       />
                     </div>
                   </div>

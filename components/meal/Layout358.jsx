@@ -49,9 +49,9 @@ export function Layout358() {
           </div>
           <div className="flex items-center justify-center">
             <img
-              src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+              src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80"
               className="size-full object-cover"
-              alt="Meal image"
+              alt="Fresh vegetarian meal"
             />
           </div>
         </div>

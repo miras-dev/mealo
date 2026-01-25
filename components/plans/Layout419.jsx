@@ -43,8 +43,8 @@ export function Layout419() {
             <div className="max-w-md">
               <div className="mb-6 md:mb-8">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Meal image 1"
+                  src="https://images.unsplash.com/photo-1589301773859-858076b3ad1b?w=800&q=80"
+                  alt="Traditional Kerala breakfast"
                   className="size-full object-cover"
                 />
               </div>
@@ -61,8 +61,8 @@ export function Layout419() {
             <div className="max-w-md">
               <div className="mb-6 md:mb-8">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Meal image 2"
+                  src="https://images.unsplash.com/photo-1606851681591-0e2830e92fda?w=800&q=80"
+                  alt="Healthy lunch option"
                   className="size-full object-cover"
                 />
               </div>
@@ -79,8 +79,8 @@ export function Layout419() {
             <div className="max-w-md">
               <div className="mb-6 md:mb-8">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Meal image 3"
+                  src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80"
+                  alt="Nutritious dinner meal"
                   className="size-full object-cover"
                 />
               </div>
@@ -97,8 +97,8 @@ export function Layout419() {
             <div className="max-w-md">
               <div className="mb-6 md:mb-8">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Meal image 4"
+                  src="https://images.unsplash.com/photo-1603073163308-9c29e7192fdb?w=800&q=80"
+                  alt="Balanced meal portions"
                   className="size-full object-cover"
                 />
               </div>

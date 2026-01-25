@@ -26,9 +26,11 @@ export function Layout504() {
               tags.
             </p>
             <div className="mt-6 flex items-center justify-center gap-x-4 md:mt-8">
-              <Button title="View menu" variant="secondary">
+              <button 
+                className="button-primary"
+                >
                 View menu
-              </Button>
+              </button>
               <Button
                 title="Filter"
                 variant="link"
