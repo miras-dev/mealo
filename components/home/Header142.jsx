@@ -99,11 +99,12 @@ export const Header142 = (props) => {
             <h1 className="mb-5 text-6xl font-bold md:mb-6 md:text-9xl lg:text-10xl">{heading}</h1>
             <p className="md:text-md">{description}</p>
             <div className="mt-6 flex items-center justify-center gap-4 md:mt-8">
-              {buttons.map((button, index) => (
-                <Button key={index} {...button}>
-                  {button.title}
-                </Button>
-              ))}
+              <button className="button-primary">
+                Choose a plan
+              </button>
+              <button className="button-secondary">
+                View weekly menu
+              </button>
             </div>
           </div>
         </div>

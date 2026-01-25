@@ -105,11 +105,11 @@ export const Layout423Defaults = {
     {
       tagline: "Authentic",
       url: "#",
-      heading: "Every meal calorie-aligned to your goals",
+      heading: "Every meal calorie-aligned to your daily goals",
       description:
         "Portions matched to your nutrition targets, not guesswork",
       image: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+        src: "https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=1200&q=80",
         alt: "Two people discussing meal plans at a cafe",
       },
       button: {
@@ -126,7 +126,7 @@ export const Layout423Defaults = {
       description:
         "Your schedule changes. Your meal plan should too",
       image: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+        src: "https://images.unsplash.com/photo-1512428813834-c702c7702b78?w=1200&q=80",
         alt: "Woman working on laptop managing her meal plan",
       },
       button: {
@@ -143,7 +143,7 @@ export const Layout423Defaults = {
       description:
         "Delivered fresh to your door at the same time, always",
       image: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+        src: "https://images.unsplash.com/photo-1526367790999-0150786686a2?w=1200&q=80",
         alt: "Delivery person handing meal to customer",
       },
       button: {

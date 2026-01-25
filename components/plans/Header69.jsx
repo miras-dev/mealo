@@ -16,9 +16,9 @@ export function Header69() {
       </div>
       <div className="absolute inset-0 z-0">
         <img
-          src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+          src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1920&q=80"
           className="size-full object-cover"
-          alt="Meal image"
+          alt="Meal planning and preparation"
         />
         <div className="absolute inset-0 bg-black/50" />
       </div>

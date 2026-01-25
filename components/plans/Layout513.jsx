@@ -11,8 +11,8 @@ export function Layout513() {
       description:
         "Larger portions of the same meals, with priority delivery and spice customisation.",
       image: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-1-portrait.svg",
-        alt: "Meal image 1",
+        src: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80",
+        alt: "Normal plan meal",
       },
     },
     {
@@ -20,8 +20,8 @@ export function Layout513() {
       description:
         "Larger portions of the same meals, with priority delivery and spice customisation.",
       image: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-2-portrait.svg",
-        alt: "Meal image 2",
+        src: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80",
+        alt: "Executive plan meal",
       },
     },
     {
@@ -29,8 +29,8 @@ export function Layout513() {
       description:
         "Higher-calorie portions designed to support steady muscle and weight gain with balanced nutrition.",
       image: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-3-portrait.svg",
-        alt: "Meal image 3",
+        src: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
+        alt: "Weight loss plan meal",
       },
     },
     {
@@ -38,8 +38,8 @@ export function Layout513() {
       description:
         "Larger portions of the same meals, with priority delivery and spice customisation.",
       image: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-4-portrait.svg",
-        alt: "Meal image 4",
+        src: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80",
+        alt: "Weight gain plan meal",
       },
     },
   ];

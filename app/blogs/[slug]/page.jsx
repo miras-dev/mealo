@@ -38,7 +38,6 @@ export default function BlogPostPage() {
 
   return (
     <div>
-      <Navbar5 />
 
       {/* Blog Post Hero */}
       <section className="px-[5%] py-16 md:py-24 lg:py-28">
@@ -101,7 +100,6 @@ export default function BlogPostPage() {
       </section>
 
       <Cta31 />
-      <Footer1 />
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import { Header69 } from "@/components/plans/Header69";
 import { Layout513 } from "@/components/plans/Layout513";
-import { Pricing20 } from "@/components/plans/Pricing20";
+import { Pricing20 } from "@/components/shared/Pricing20";
 import { Layout419 } from "@/components/plans/Layout419";
 import { Layout357 } from "@/components/plans/Layout357";
-import { Faq9 } from "@/components/plans/Faq9";
+import { Faq9 } from "@/components/shared/Faq9";
 import { Cta31 } from "@/components/shared/Cta31";
 import { generateMetadata as generateSEOMetadata, generateProductSchema } from "@/lib/seo";
 

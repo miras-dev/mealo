@@ -30,8 +30,8 @@ export function Testimonial17() {
             </div>
             <div className="mt-5 flex w-full flex-col items-start md:mt-6 md:w-fit md:flex-row md:items-center">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                alt="Testimonial avatar"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80"
+                alt="Fatima Al Mansouri"
                 className="mb-4 size-12 min-h-12 min-w-12 rounded-full object-cover md:mb-0 md:mr-4"
               />
               <div>
@@ -56,8 +56,8 @@ export function Testimonial17() {
             </div>
             <div className="mt-5 flex w-full flex-col items-start md:mt-6 md:w-fit md:flex-row md:items-center">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                alt="Testimonial avatar"
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
+                alt="Rajesh Kumar"
                 className="mb-4 size-12 min-h-12 min-w-12 rounded-full object-cover md:mb-0 md:mr-4"
               />
               <div>
@@ -82,8 +82,8 @@ export function Testimonial17() {
             </div>
             <div className="mt-5 flex w-full flex-col items-start md:mt-6 md:w-fit md:flex-row md:items-center">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                alt="Testimonial avatar"
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80"
+                alt="Sarah Johnson"
                 className="mb-4 size-12 min-h-12 min-w-12 rounded-full object-cover md:mb-0 md:mr-4"
               />
               <div>

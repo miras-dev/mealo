@@ -24,8 +24,8 @@ export function Layout370() {
             <div className="flex flex-col border border-border-primary">
               <div className="flex items-center justify-center">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Meal image 1"
+                  src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80"
+                  alt="Balanced nutritious meal"
                   className="w-full object-cover"
                 />
               </div>
@@ -52,8 +52,8 @@ export function Layout370() {
             <div className="flex flex-col border border-border-primary">
               <div className="flex items-center justify-center">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
-                  alt="Meal image 2"
+                  src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=800&q=80"
+                  alt="Healthy meal with macros"
                   className="w-full object-cover"
                 />
               </div>
@@ -80,8 +80,8 @@ export function Layout370() {
             <div className="grid grid-cols-1 border border-border-primary sm:col-span-2 sm:row-span-1 sm:grid-cols-2">
               <div className="flex items-center justify-center">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-portrait.svg"
-                  alt="Meal image 3"
+                  src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80"
+                  alt="Fresh ingredients"
                   className="size-full object-cover"
                 />
               </div>
