@@ -41,12 +41,12 @@ export const Layout423 = (props) => {
             <a
               key={index}
               href={feature.url}
-              className="relative flex w-full flex-col overflow-hidden lg:h-full lg:w-1/2 lg:transition-all lg:duration-200 lg:hover:w-[70%]"
+              className="relative flex w-full flex-col overflow-hidden rounded-2xl lg:h-full lg:w-1/2 lg:transition-all lg:duration-200 lg:hover:w-[70%]"
               onMouseEnter={() => setHoveredFeatureIdx(index)}
               onMouseLeave={() => setHoveredFeatureIdx(null)}
             >
               <div className="absolute inset-0 flex size-full flex-col items-center justify-center self-start">
-                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute inset-0 bg-black/40" />
                 <img
                   src={feature.image.src}
                   alt={feature.image.alt}
@@ -109,7 +109,7 @@ export const Layout423Defaults = {
       description:
         "Portions matched to your nutrition targets, not guesswork",
       image: {
-        src: "https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=1200&q=80",
+        src: "/images/Food/Cover.png",
         alt: "Two people discussing meal plans at a cafe",
       },
       button: {
@@ -126,7 +126,7 @@ export const Layout423Defaults = {
       description:
         "Your schedule changes. Your meal plan should too",
       image: {
-        src: "https://images.unsplash.com/photo-1512428813834-c702c7702b78?w=1200&q=80",
+        src: "https://images.pexels.com/photos/30945104/pexels-photo-30945104.jpeg",
         alt: "Woman working on laptop managing her meal plan",
       },
       button: {

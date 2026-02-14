@@ -13,10 +13,10 @@ export function Cta31() {
     >
       <div className="container flex flex-col items-center">
         <div className="mb-12 max-w-lg text-center md:mb-18 lg:mb-20">
-          <h2 className="rb-5 mb-5 text-5xl font-bold text-black md:mb-6 md:text-7xl lg:text-8xl">
+          <h2 className="rb-5 mb-5 text-5xl font-bold text-white md:mb-6 md:text-7xl lg:text-8xl">
             Start your balanced meal plan
           </h2>
-          <p className="text-black md:text-md">
+          <p className="text-white md:text-md">
             Join hundreds eating better, feeling stronger, and living easier
           </p>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:mt-8">
