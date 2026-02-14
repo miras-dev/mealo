@@ -17,7 +17,7 @@ export const Layout353 = (props) => {
               {heading}
             </h2>
             <p className="md:text-md">{description}</p>
-            <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
+            <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8 py-4">
               {buttons.map((button, index) => (
                 <Button key={index} {...button}>
                   {button.title}
@@ -29,17 +29,34 @@ export const Layout353 = (props) => {
             {featureSections.map((section, index) => (
               <div
                 key={index}
-                className="sticky mb-12 border border-border-primary bg-background-primary p-8 md:mb-16"
-                style={{ top: `${8 + index * 2}rem` }}
+                className="sticky mb-16 rounded-2xl border border-neutral-200/60 bg-white/80 backdrop-blur-md p-10 shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+                style={{ top: `${6 + index * 3}rem` }}
               >
-                <div className="mb-3 md:mb-4">
-                  <img src={section.icon.src} alt={section.icon.alt} className="size-12" />
+                {/* Step Number */}
+                <div className="mb-6 flex items-center justify-between">
+                  <span className="text-sm font-semibold text-neutral-400">
+                    {`0${index + 1}`}
+                  </span>
+                  <div className="h-12 w-12 rounded-xl bg-neutral-100 flex items-center justify-center">
+                    <img
+                      src={section.icon.src}
+                      alt={section.icon.alt}
+                      className="h-6 w-6"
+                    />
+                  </div>
                 </div>
-                <h3 className="mb-3 text-xl font-bold md:mb-4 md:text-2xl">{section.title}</h3>
-                <p>{section.description}</p>
+
+                <h3 className="mb-4 text-2xl font-semibold tracking-tight">
+                  {section.title}
+                </h3>
+
+                <p className="text-neutral-600 leading-relaxed">
+                  {section.description}
+                </p>
               </div>
             ))}
           </div>
+
         </div>
       </div>
     </section>
@@ -52,11 +69,10 @@ export const Layout353Defaults = {
   description:
     "From choosing your plan to enjoying fresh meals at your door",
   buttons: [
-    { title: "Next", variant: "secondary" },
+    { title: "Next", className: "button-primary" },
     {
       title: "Next",
-      variant: "link",
-      size: "link",
+      className: "button-secondary",
       iconRight: <RxChevronRight />,
     },
   ],

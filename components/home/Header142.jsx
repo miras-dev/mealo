@@ -103,7 +103,13 @@ export const Header142 = (props) => {
       <div className="px-[5%] py-16 md:py-24 lg:py-28">
         <div className="container max-w-lg">
           <div className="relative z-10 text-center">
-            <h1 className="mb-5 text-6xl font-bold md:mb-6 md:text-9xl lg:text-10xl">{heading}</h1>
+            <h1 className="mb-5 text-6xl font-bold md:mb-6 md:text-9xl lg:text-10xl"> Authentic  
+              <span style={{
+                color: '#e66025'
+              }}> 
+               {" Kerala meals"}
+              </span>
+              , Balanced for your life</h1>
             <p className="md:text-md">{description}</p>
             <div className="mt-6 flex items-center justify-center gap-4 md:mt-8">
               <button className="button-primary">
