@@ -8,6 +8,8 @@ import {
   useTransform,
 } from "framer-motion";
 import { useCallback } from "react";
+// import BackgroundImage from './../../public/images/Backgrounds/bg2.jpg';
+import BackgroundImage from './../../public/images/Backgrounds/Group1.png';
 
 const imagePositions = {
   group1: [
@@ -81,8 +83,8 @@ export const Header142 = (props) => {
       style={transformStyles}
     >
       {images.map((image, index) => (
-        <div key={index} className={`absolute w-full ${positions[index]}`}>
-          <img src={image.src} alt={image.alt} className="size-full" />
+        <div key={index} className={`absolute w-[1220px] ${positions[index]}`}>
+          <img src={image.src} alt={image.alt} className="" />
         </div>
       ))}
     </Animate>
@@ -90,9 +92,14 @@ export const Header142 = (props) => {
 
   return (
     <section
-      className="relative flex h-svh items-center justify-center overflow-hidden lg:h-screen"
+      className="relative flex h-svh items-center justify-center overflow-hidden lg:h-screen bg-cover"
       onMouseMove={handleMouseMove}
+      style={{ 
+        backgroundImage: `url(${BackgroundImage.src})`,
+        backgroundPosition: 'center'
+    }}
     >
+      {/* <div className="absolute inset-0 bg-white/50"></div> */}
       <div className="px-[5%] py-16 md:py-24 lg:py-28">
         <div className="container max-w-lg">
           <div className="relative z-10 text-center">
@@ -127,37 +134,37 @@ export const Header142Defaults = {
   ],
   group1Images: [
     {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+      src: "images/Food/1.png",
       alt: "Kerala meal 1",
     },
     {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+      src: "images/Food/2.png",
       alt: "Kerala meal 2",
     },
     {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+      src: "images/Food/3.png",
       alt: "Kerala meal 3",
     },
     {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+      src: "images/Food/4.png",
       alt: "Kerala meal 4",
     },
   ],
   group2Images: [
     {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg",
+      src: "images/Food/5.png",
       alt: "Kerala meal 5",
     },
     {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+      src: "images/Food/6.png",
       alt: "Kerala meal 6",
     },
     {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg",
+      src: "images/Food/7.png",
       alt: "Kerala meal 7",
     },
     {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg",
+      src: "images/Food/8.png",
       alt: "Kerala meal 8",
     },
   ],

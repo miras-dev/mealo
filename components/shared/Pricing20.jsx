@@ -25,7 +25,12 @@ export function Pricing20() {
           </p>
         </div>
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-          <div className="h-full border border-border-primary px-6 py-8 md:p-8 bg-white">
+          <div className="h-full px-6 py-8 md:p-8 bg-white"
+            style={{
+              boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
+              borderRadius: '20px'
+            }}
+          >
             <h2 className="mb-1 text-md font-bold leading-[1.4] md:text-xl">
               Normal
             </h2>
@@ -62,7 +67,12 @@ export function Pricing20() {
               </div>
             </div>
           </div>
-          <div className="h-full border border-border-primary px-6 py-8 md:p-8 bg-white">
+          <div className="h-full px-6 py-8 md:p-8 bg-white"
+            style={{
+              boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
+              borderRadius: '20px'
+            }}
+          >
             <h2 className="mb-1 text-md font-bold leading-[1.4] md:text-xl">
               Executive
             </h2>
@@ -105,7 +115,12 @@ export function Pricing20() {
               </div>
             </div>
           </div>
-          <div className="h-full border border-border-primary px-6 py-8 md:p-8 bg-white">
+          <div className="h-full px-6 py-8 md:p-8 bg-white"
+            style={{
+              boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
+              borderRadius: '20px'
+            }}
+          >
             <h2 className="mb-1 text-md font-bold leading-[1.4] md:text-xl">
               Weight Loss
             </h2>
