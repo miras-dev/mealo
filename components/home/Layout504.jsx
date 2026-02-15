@@ -12,10 +12,6 @@ import { RxChevronRight } from "react-icons/rx";
 import { weeklyMenu } from "@/lib/mealsData";
 import Link from "next/link";
 
-/* ---------------------------------- */
-/* Reusable Badge Component */
-/* ---------------------------------- */
-
 function Badge({ children, variant = "default" }) {
   const base =
     "rounded-full px-3 py-1 text-xs font-semibold backdrop-blur-sm";
@@ -29,9 +25,6 @@ function Badge({ children, variant = "default" }) {
   return <span className={`${base} ${styles[variant]}`}>{children}</span>;
 }
 
-/* ---------------------------------- */
-/* Reusable Meal Card */
-/* ---------------------------------- */
 
 function MealCard({ meal, mealType }) {
   return (
