@@ -148,7 +148,7 @@ export const Header142Defaults = {
       alt: "Kerala meal 2",
     },
     {
-      src: "images/Food/3.png",
+      src: "images/Food/AttaDosa_SoyaCurry.png",
       alt: "Kerala meal 3",
     },
     {
@@ -158,19 +158,19 @@ export const Header142Defaults = {
   ],
   group2Images: [
     {
-      src: "images/Food/5.png",
+      src: "images/Food/Vellaappam_EggStew.png",
       alt: "Kerala meal 5",
     },
     {
-      src: "images/Food/6.png",
+      src: "images/Food/Sadhya_RSAPTRPPP.png",
       alt: "Kerala meal 6",
     },
     {
-      src: "images/Food/7.png",
+      src: "images/Food/Rice_FMBFPP.png",
       alt: "Kerala meal 7",
     },
     {
-      src: "images/Food/8.png",
+      src: "images/Food/Puttu_Chicken65.png",
       alt: "Kerala meal 8",
     },
   ],
